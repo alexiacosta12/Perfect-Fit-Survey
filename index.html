@@ -1,95 +1,104 @@
-<div id="intro">
-  <h2>Let's help you find the perfect fit! </h2>
-  <button id="beginquiz">Start the quiz</button>
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="Chic Choice" />
+  <meta name="keywords" content="Adv Web Design Final Project" />  
+  <meta http-equiv="content-language" content="en-US" />
+  <meta name="generator" content="google chrome" />
+  <link href="https://fonts.googleapis.com/css?family=Emilys+Candy|Great+Vibes" rel="stylesheet">
+  <title>CHIC CHOICE | Web Design Website</title>
+</head>
+<body>
+
+<div class="header">
+  <span>CHIC CHOICE</span>
 </div>
 
-<div class="question" id="q1"  data-next="q2">
-  <h2>Question 1:</h2>
-  <p>What occasion or event are you shopping for? </p>
-  <ol class="button">
-    <li data-score=>Casual day out</li>
-    <li data-score=>Work or professional event</li>
-    <li data-score=>Formal evening </li>
-    <li data-score=>Party or special event</li>
-  </ol>
+<div class="navbar">
+  <ul class="navbar-options">
+    <li><a href="https://s.codepen.io/jan171/debug/aYKGaQ/NQkzYnVaaGKA">Home</a></li>
+    <li><a href="https://s.codepen.io/jan171/debug/LmZgbw/jVkpogXKxqEA">Newest Trends</a></li>
+    <li><a href="https://s.codepen.io/jan171/debug/vjOzZy/GnrnbVDJyRQr">Women's Clothing</a></li>
+    <li><a href="https://s.codepen.io/jan171/debug/zjGmKB/VJkxxZoWQNZk">Men's Clothing</a></li>
+    <li><a href="https://s.codepen.io/jan171/debug/aGNeEj/NjkYzwoagEWM">Accessories</a></li>
+    <li><a href="https://s.codepen.io/jan171/debug/yjNQJM/dXMqBbzommJr">Contact</a></li>
+  </ul>
 </div>
 
-<div class="question" id="q2" data-next="q3">
-  <h2>Question 2:</h2>
-  <p>What colors are you interested in? </p>
-  <ol class="button">
-    <li data-score=>White</li>
-    <li data-score=>Black</li>
-    <li data-score=>Blue</li>
-    <li data-score=>Red</li>
-        <li data-score=>Green</li>
-     <li data-score=>Pink</li>
-       <li data-score=>Yellow</li>
-  </ol>
+<div class="gallery-wrapper">
+  <div class="gallery">
+    <a target="_blank" href="http://res.cloudinary.com/dabfyhdoz/image/upload/v1524685644/skirt_fcjpdn.png">
+      <img src="http://res.cloudinary.com/dabfyhdoz/image/upload/v1524685644/skirt_fcjpdn.png" alt="skirt" width="300" height="200">
+    </a>
+    <div class="price">Denim Button Skirt<br>$59</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="http://res.cloudinary.com/dabfyhdoz/image/upload/v1524685644/shirt_leggf9.png">
+      <img src="http://res.cloudinary.com/dabfyhdoz/image/upload/v1524685644/shirt_leggf9.png" alt="top" width="300" height="200">
+    </a>
+    <div class="price">Casual Top<br>$29</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="http://res.cloudinary.com/dabfyhdoz/image/upload/v1524685644/pink_su4eyp.png">
+      <img src="http://res.cloudinary.com/dabfyhdoz/image/upload/v1524685644/pink_su4eyp.png" alt="pants" width="300" height="200">
+    </a>
+    <div class="price">Pink Pants<br>$69</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="http://res.cloudinary.com/dabfyhdoz/image/upload/v1524685644/pants_tjrbx0.png">
+      <img src="http://res.cloudinary.com/dabfyhdoz/image/upload/v1524685644/pants_tjrbx0.png" alt="combo" width="300" height="200">
+    </a>
+    <div class="price">Denim Combo<br>$159</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="http://res.cloudinary.com/dabfyhdoz/image/upload/v1524685644/jacket_nfcov5.png">
+      <img src="http://res.cloudinary.com/dabfyhdoz/image/upload/v1524685644/jacket_nfcov5.png" alt="jacket" width="300" height="200">
+    </a>
+    <div class="price">Denim Jacket<br>$79</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="http://res.cloudinary.com/dabfyhdoz/image/upload/v1524685644/dress2_uxttkd.png">
+      <img src="http://res.cloudinary.com/dabfyhdoz/image/upload/v1524685644/dress2_uxttkd.png" alt="dressy" width="300" height="200">
+    </a>
+    <div class="price">Night Out Dress<br>$129</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="http://res.cloudinary.com/dabfyhdoz/image/upload/v1524685644/dress1_mwxgbb.png">
+      <img src="http://res.cloudinary.com/dabfyhdoz/image/upload/v1524685644/dress1_mwxgbb.png" alt="dress" width="300" height="200">
+    </a>
+    <div class="price">Buttoned Dress<br>$59</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="http://res.cloudinary.com/dabfyhdoz/image/upload/v1524685644/crop_t7wwso.png">
+      <img src="http://res.cloudinary.com/dabfyhdoz/image/upload/v1524685644/crop_t7wwso.png" alt="crop" width="300" height="200">
+    </a>
+    <div class="price">Crop Top<br>$29</div>
+  </div>
 </div>
 
-<div class="question" id="q3" data-next="q4">
-  <h2>Question 3:</h2>
-  <p>What specific type of clothing item are you searching for?</p>
-  <ol class="button">
-    <li data-score=>Dress </li>
-    <li data-score=>Top</li>
-    <li>Bottoms</li>
-    <li>Set</li>
-    <li>Jumpsuit/Romper</li>
-        <li>Skirt</li>
-       <li>Jacket/Coat</li>
-  </ol>
+<div class="footer">
+  <h2 style="font-family: 'Emilys Candy', cursive; text-align:right;">Alexia Wedding Dresses</h2>
+  <br>
+  <div class="social">
+    <span>Follow us!</span>
+    <p>
+      <a href="#"><i class="fa fa-facebook-square"></i></a>
+      <a href="#"><i class="fa fa-twitter-square"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-youtube-square"></i></a>
+    </p>
+  </div>
 </div>
 
-<div class="question" id="q4" data-next="q5">
-  <h2>Question 4:</h2>
-  <p>WWhat is your preferred budget range?</p>
-  <ol class="button">
-    <li data-score=>Under $50</li>
-    <li data-score=>$50-$100</li>
-    <li>$100-$200</li>
-    <li>$200-$300</li>
-     <li>Over $300</li>
-  </ol>
-</div>
-<div class="question" id="q5" data-next="q6">
-  <h2>Question 5:</h2>
-  <p>What is your preferred dress length?</p>
-  <ol class="button">
-    <li data-score=>Mini</li>
-    <li data-score=>Knee-lengtgh</li>
-    <li data-score=>Midi</li>
-      <li data-score=>Maxi</li>
-    <li></li>
-    <li></li>
-  </ol>
-</div>
-<div class="question" id="q6" data-next="q7">
-  <h2>Question 6:</h2>
-  <p>Are there any specific patterns or prints you prefer?</p>
-  <ol class="button">
-    <li data-score=>Floral</li>
-    <li data-score=>Striped</li>
-    <li>Polka dots</li>
-    <li>Geometric</li>
-    <li>Animal print </li>
-        <li>Solid colours </li>
-        <li>None </li>
-  </ol>
-</div>
-<div class="question" id="q7" data-next="result">
-  <h2>Question 7:</h2>
-  <p>What fit or style are you looking for?</p>
-  <ol class="button">
-    <li data-score=>Slim fit </li>
-    <li data-score=>Loose fit</li>
-    <li>A-line</li>
-    <li>Bodycon</li>
-      <li>Flared</li>
-      <li>Wrap</li>
-  </ol>
-</div>
-<div id="result">
-  <h2>This is the fit for you!</h2>
-</div>
+</body>
+</html>
