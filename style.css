@@ -1,0 +1,41 @@
+.question, #result {
+    display: none;
+    }
+
+.button li {
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: #eee;
+    text-align: center;
+    line-height: 2em;
+    padding: 0.5em;
+    margin: 0.5em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.button li:hover {
+    color: #bfbfbf;
+    background-color: #555;
+}
+
+#intro, .question, #result {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#beginquiz {
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: #eee;
+    text-align: center;
+    line-height: 2em;
+    padding: 0.5em;
+    margin: 0.5em;
+    width: 20em;
+    margin: 0 auto;
+}
+#beginquiz:hover {
+    color: #bfbfbf;
+    background-color: #555;
+}
